@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { CheckSquare, Tag, ListTodo } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { UserMenu } from './user-menu';
+import { ThemeToggle } from './theme-toggle';
 import { Separator } from '@/components/ui/separator';
 
 const navItems = [
@@ -47,8 +48,12 @@ export function Sidebar() {
 
       <Separator />
 
-      {/* User menu at bottom */}
-      <div className="p-3">
+      {/* Theme toggle + user menu at bottom */}
+      <div className="p-3 space-y-1">
+        <div className="flex items-center justify-between px-1">
+          <span className="text-xs text-sidebar-foreground/60 font-medium">Theme</span>
+          <ThemeToggle />
+        </div>
         <UserMenu />
       </div>
     </aside>
