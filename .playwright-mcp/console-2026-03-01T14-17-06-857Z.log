@@ -1,0 +1,10 @@
+[   24418ms] [ERROR] Failed to connect to MCP Server via the MCP Inspector Proxy: http://localhost:6277/mcp?url=http%3A%2F%2Flocalhost%3A3000%2Fsse&transportType=streamable-http: McpError: MCP error -32001: Streamable HTTP error: Unexpected content type: text/html; charset=utf-8
+    at McpError.fromError (http://localhost:6274/assets/index-uKaJPCZp.js:16251:12)
+    at Client._onresponse (http://localhost:6274/assets/index-uKaJPCZp.js:20609:30)
+    at _transport.onmessage (http://localhost:6274/assets/index-uKaJPCZp.js:20399:14)
+    at processStream (http://localhost:6274/assets/index-uKaJPCZp.js:48398:31) @ http://localhost:6274/assets/index-uKaJPCZp.js:49259
+[   24420ms] [ERROR] McpError: MCP error -32001: Streamable HTTP error: Unexpected content type: text/html; charset=utf-8
+    at McpError.fromError (http://localhost:6274/assets/index-uKaJPCZp.js:16251:12)
+    at Client._onresponse (http://localhost:6274/assets/index-uKaJPCZp.js:20609:30)
+    at _transport.onmessage (http://localhost:6274/assets/index-uKaJPCZp.js:20399:14)
+    at processStream (http://localhost:6274/assets/index-uKaJPCZp.js:48398:31) @ http://localhost:6274/assets/index-uKaJPCZp.js:49534

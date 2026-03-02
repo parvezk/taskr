@@ -1,0 +1,56 @@
+[    1056ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/sign-in" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         className="light"
+-                         style={{color-scheme:"light"}}
+                        >
+                  ...
+ @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_f3530cac._.js:3127
+[    4858ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/api/auth/sign-in/social:0
+[    4928ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/api/auth/get-session:0
+[   27388ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/api/auth/sign-up/email:0
+[   27412ms] Error: HTTP 500 Internal Server Error
+    at customFetchImpl (http://localhost:3001/_next/static/chunks/node_modules_%40neondatabase_auth_dist_b2996707._.js:1411:37)
+    at async betterFetch (http://localhost:3001/_next/static/chunks/6866a_6193a6ce._.js:2845:20)
+    at async $fetch (http://localhost:3001/_next/static/chunks/6866a_6193a6ce._.js:2765:16)
+    at async Object.apply (http://localhost:3001/_next/static/chunks/6866a_6193a6ce._.js:1135:24)
+    at async http://localhost:3001/_next/static/chunks/_d889191f._.js:335:31
+[   53245ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/api/auth/get-session:0

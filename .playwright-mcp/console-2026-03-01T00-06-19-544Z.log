@@ -1,0 +1,227 @@
+[    1621ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/tasks:0
+[    1810ms] TypeError: fetch failed
+    at <unknown> (node:internal/deps/undici/undici:13484:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchSession (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:551:22)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:681:14)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:14036:20)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6957:28)
+    at async adapter (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6912:16)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:1232:26)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:278:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:449:26)
+    at async DevServer.handleRequestImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/base-server.js:935:28)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:387:20)
+    at async Span.traceAsyncFn (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:383:24)
+    at async handleRoute (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:333:33)
+    at async resolveRoutes (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:593:28)
+    at async handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:296:96)
+    at async requestHandlerImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:496:13)
+    at async Server.requestListener (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/start-server.js:226:13)
+[  582058ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/tasks:0
+[  582179ms] TypeError: fetch failed
+    at <unknown> (node:internal/deps/undici/undici:13484:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchSession (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:551:22)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:681:14)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:14036:20)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6957:28)
+    at async adapter (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6912:16)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:1232:26)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:278:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:449:26)
+    at async DevServer.handleRequestImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/base-server.js:935:28)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:387:20)
+    at async Span.traceAsyncFn (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:383:24)
+    at async handleRoute (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:333:33)
+    at async resolveRoutes (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:593:28)
+    at async handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:296:96)
+    at async requestHandlerImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:496:13)
+    at async Server.requestListener (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/start-server.js:226:13)
+[  586227ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/tasks:0
+[  586756ms] TypeError: fetch failed
+    at <unknown> (node:internal/deps/undici/undici:13484:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchSession (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:551:22)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:681:14)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:14036:20)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6957:28)
+    at async adapter (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6912:16)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:1232:26)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:278:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:449:26)
+    at async DevServer.handleRequestImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/base-server.js:935:28)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:387:20)
+    at async Span.traceAsyncFn (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:383:24)
+    at async handleRoute (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:333:33)
+    at async resolveRoutes (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:593:28)
+    at async handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:296:96)
+    at async requestHandlerImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:496:13)
+    at async Server.requestListener (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/start-server.js:226:13)
+[  591880ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/tasks:0
+[  591977ms] TypeError: fetch failed
+    at <unknown> (node:internal/deps/undici/undici:13484:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchSession (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:551:22)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:681:14)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:14036:20)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6957:28)
+    at async adapter (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6912:16)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:1232:26)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:278:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:449:26)
+    at async DevServer.handleRequestImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/base-server.js:935:28)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:387:20)
+    at async Span.traceAsyncFn (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:383:24)
+    at async handleRoute (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:333:33)
+    at async resolveRoutes (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:593:28)
+    at async handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:296:96)
+    at async requestHandlerImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:496:13)
+    at async Server.requestListener (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/start-server.js:226:13)
+[  633963ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/tasks:0
+[  634397ms] TypeError: fetch failed
+    at <unknown> (node:internal/deps/undici/undici:13484:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchSession (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:551:22)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:681:14)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:14036:20)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6957:28)
+    at async adapter (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6912:16)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:1232:26)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:278:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:449:26)
+    at async DevServer.handleRequestImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/base-server.js:935:28)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:387:20)
+    at async Span.traceAsyncFn (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:383:24)
+    at async handleRoute (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:333:33)
+    at async resolveRoutes (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:593:28)
+    at async handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:296:96)
+    at async requestHandlerImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:496:13)
+    at async Server.requestListener (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/start-server.js:226:13)
+[  829398ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/tasks:0
+[  830428ms] TypeError: fetch failed
+    at <unknown> (node:internal/deps/undici/undici:13484:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchSession (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:551:22)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:681:14)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:14036:20)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6957:28)
+    at async adapter (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6912:16)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:1232:26)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:278:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:449:26)
+    at async DevServer.handleRequestImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/base-server.js:935:28)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:387:20)
+    at async Span.traceAsyncFn (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:383:24)
+    at async handleRoute (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:333:33)
+    at async resolveRoutes (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:593:28)
+    at async handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:296:96)
+    at async requestHandlerImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:496:13)
+    at async Server.requestListener (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/start-server.js:226:13)
+[  895039ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3001/tasks:0
+[  895413ms] TypeError: fetch failed
+    at <unknown> (node:internal/deps/undici/undici:13484:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async fetchSession (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:551:22)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:681:14)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:14036:20)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6957:28)
+    at async adapter (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:6912:16)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:1232:26)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:278:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:449:26)
+    at async DevServer.handleRequestImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/base-server.js:935:28)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:387:20)
+    at async Span.traceAsyncFn (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:383:24)
+    at async handleRoute (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:333:33)
+    at async resolveRoutes (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:593:28)
+    at async handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:296:96)
+    at async requestHandlerImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:496:13)
+    at async Server.requestListener (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/start-server.js:226:13)
+[ 1067912ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
+[ 1068914ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
+[ 1069916ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
+[ 1070920ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
+[ 1071925ms] [ERROR] WebSocket connection to 'ws://localhost:3001/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_client_5a8a528e._.js:2266
+[ 1092982ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/tasks:0
+[ 1093427ms] Error: Missing environment variable: NEON_AUTH_BASE_URL. 
+ You must provide the auth url of your Neon Auth instance in environment variables
+    at neonAuthMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_1d00c0f3._.js:672:25)
+    at module evaluation (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/[root-of-the-server]__3a9478e2._.js:55:237)
+    at instantiateModule (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/[turbopack]_runtime.js:740:9)
+    at getOrInstantiateModuleFromParent (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/[turbopack]_runtime.js:763:12)
+    at Context.esmImport [as i] (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/[turbopack]_runtime.js:228:20)
+    at module evaluation (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/node_modules_next_1b33108f._.js:14006:131)
+    at instantiateModule (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/[turbopack]_runtime.js:740:9)
+    at instantiateRuntimeModule (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/[turbopack]_runtime.js:768:12)
+    at getOrInstantiateRuntimeModule (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/[turbopack]_runtime.js:781:12)
+    at Object.m (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/chunks/[turbopack]_runtime.js:790:18)
+    at Object.<anonymous> (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/.next/dev/server/middleware.js:7:3)
+    at Module._compile (node:internal/modules/cjs/loader:1739:14)
+    at Object..js (node:internal/modules/cjs/loader:1904:10)
+    at Module.load (node:internal/modules/cjs/loader:1473:32)
+    at Function._load (node:internal/modules/cjs/loader:1285:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:234:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1495:12)
+    at mod.require (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/require-hook.js:68:28)
+    at require (node:internal/modules/helpers:135:16)
+    at DevServer.loadNodeMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:1112:28)
+    at DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:1222:43)
+    at async DevServer.runMiddleware (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:278:28)
+    at async NextNodeServer.handleCatchallMiddlewareRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/next-server.js:449:26)
+    at async DevServer.handleRequestImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/base-server.js:935:28)
+    at async (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:387:20)
+    at async Span.traceAsyncFn (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/dev/next-dev-server.js:383:24)
+    at async handleRoute (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:333:33)
+    at async resolveRoutes (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-utils/resolve-routes.js:593:28)
+    at async handleRequest (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:296:96)
+    at async requestHandlerImpl (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/router-server.js:496:13)
+    at async Server.requestListener (file:///Users/parvezkose/dev2/mcp-issue-tracker/todoer/node_modules/next/dist/server/lib/start-server.js:226:13)
+[ 1124814ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/auth/get-session:0
+[ 1126153ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/auth/sign-in/social:0
+[ 1148574ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/auth/sign-up/email:0
+[ 1148592ms] Error: Route POST:/neondb/sign-up/email not found
+    at customFetchImpl (http://localhost:3000/_next/static/chunks/node_modules_%40neondatabase_auth_dist_b2996707._.js:1411:37)
+    at async betterFetch (http://localhost:3000/_next/static/chunks/6866a_6193a6ce._.js:2845:20)
+    at async $fetch (http://localhost:3000/_next/static/chunks/6866a_6193a6ce._.js:2765:16)
+    at async Object.apply (http://localhost:3000/_next/static/chunks/6866a_6193a6ce._.js:1135:24)
+    at async http://localhost:3000/_next/static/chunks/_d889191f._.js:335:31
+[ 1262337ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=p3SlXrSzqf8vispgiL04-' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[ 1263339ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=p3SlXrSzqf8vispgiL04-' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[ 1264341ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=p3SlXrSzqf8vispgiL04-' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[ 1265345ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=p3SlXrSzqf8vispgiL04-' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[ 1266347ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=p3SlXrSzqf8vispgiL04-' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[ 1271353ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=p3SlXrSzqf8vispgiL04-' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[ 1276361ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=p3SlXrSzqf8vispgiL04-' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[ 1281367ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=p3SlXrSzqf8vispgiL04-' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[ 1286369ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=p3SlXrSzqf8vispgiL04-' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[ 1291374ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=p3SlXrSzqf8vispgiL04-' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[ 1296377ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=p3SlXrSzqf8vispgiL04-' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[ 1301380ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=p3SlXrSzqf8vispgiL04-' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
+[ 1341413ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/auth/get-session:0
+[ 1347940ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/auth/sign-in/social:0
+[ 1358910ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/auth/sign-up/email:0
+[ 1358921ms] Error: Route POST:/neondb/sign-up/email not found
+    at customFetchImpl (http://localhost:3000/_next/static/chunks/node_modules_%40neondatabase_auth_dist_b2996707._.js:1411:37)
+    at async betterFetch (http://localhost:3000/_next/static/chunks/6866a_6193a6ce._.js:2845:20)
+    at async $fetch (http://localhost:3000/_next/static/chunks/6866a_6193a6ce._.js:2765:16)
+    at async Object.apply (http://localhost:3000/_next/static/chunks/6866a_6193a6ce._.js:1135:24)
+    at async http://localhost:3000/_next/static/chunks/_d889191f._.js:335:31
+[ 1370997ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/auth/get-session:0
+[ 1389659ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/api/auth/sign-up/email:0
+[ 1389669ms] Error: Route POST:/neondb/sign-up/email not found
+    at customFetchImpl (http://localhost:3000/_next/static/chunks/node_modules_%40neondatabase_auth_dist_b2996707._.js:1411:37)
+    at async betterFetch (http://localhost:3000/_next/static/chunks/6866a_6193a6ce._.js:2845:20)
+    at async $fetch (http://localhost:3000/_next/static/chunks/6866a_6193a6ce._.js:2765:16)
+    at async Object.apply (http://localhost:3000/_next/static/chunks/6866a_6193a6ce._.js:1135:24)
+    at async http://localhost:3000/_next/static/chunks/_d889191f._.js:335:31
+[ 1485958ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=PlNFM6jm1eMG0nI5sRRVI' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_17643121._.js:10878
